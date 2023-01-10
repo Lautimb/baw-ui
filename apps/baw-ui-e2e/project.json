@@ -23,6 +23,12 @@
       "options": {
         "lintFilePatterns": ["apps/baw-ui-e2e/**/*.{js,ts}"]
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   },
   "tags": [],
